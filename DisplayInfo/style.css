@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(243, 255, 255);
+}
+
+.btn{
+    padding: 18px 32px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: large;
+}
+
+.info{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.inform{
+    border: 1px solid lightgray;
+    color: black;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 12px;
+    font-size: 16px;
+}
+.red{
+    background-color: rgb(213, 9, 9);
+    color: white;
+    border: none;
+}
+
+.green{
+    background-color: rgb(3, 102, 3);
+    color: white;
+    border: none;
+}
+
+.user-container{
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    /* border: 1px solid lightgrey; */
+    border-radius: 12px;
+    object-fit: contain;
+}
+
+.user{
+    width: 95%;
+    background-color: rgb(0, 0, 96);
+    color: white;
+    border-radius: 12px;
+    border: none;
+    padding: 5px;
+    object-fit: contain;
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin: 3px auto;
+}
+
+.deleteBtn{
+    color: rgb(0, 0, 96);
+    padding:0px 14px;
+    margin: 4px;
+    background-color: rgb(214, 214, 255);
+    border: none;
+    border-radius: 12px;
+    font-size: medium;
+    z-index: 100;
+}
+
+.deleteBtn:hover{
+    color: red;
+}
+
+.hidden{
+    display: none;
+}

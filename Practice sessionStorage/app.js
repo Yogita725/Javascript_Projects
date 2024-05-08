@@ -1,5 +1,3 @@
-
-
 let incrementBtn = document.querySelector('#incrementBtn');
 let decrementBtn = document.querySelector('#decrementBtn');
 let count = document.querySelector('#count');
